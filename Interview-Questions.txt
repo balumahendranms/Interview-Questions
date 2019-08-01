@@ -1,0 +1,25 @@
+JavaScript Interview Questions
+--------------------------------
+1.Difference between setTimeout and setInterval
+2.Javascript cookie
+3.Difference between == and === in javascript
+4.call apply and bind in javascript
+5.localstorage in html5
+6.How to create object in javascript
+7.What is closure?
+8.What is hoisting in javascript
+9.what is use strict mode in javascript
+10.'this' is javascript
+11.How javascript is differe from other scripting language
+12.merge the two object
+13.difference between null and undefined
+14.data types in javascript
+15.How to find a operation system using javascript
+16.difference between document.ready and onload
+17.event bubbling
+18.event capturing
+19.how to stop the event
+20.prototype in javascript
+21.callback function in javascript
+22.var,let.const in javascrpt
+23.
