@@ -22,4 +22,3 @@ JavaScript Interview Questions
 20.prototype in javascript
 21.callback function in javascript
 22.var,let.const in javascrpt
-23.
