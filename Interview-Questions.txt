@@ -22,3 +22,13 @@ JavaScript Interview Questions
 20.prototype in javascript
 21.callback function in javascript
 22.var,let.const in javascrpt
+ 
+Angular JS Questions 
+----------------------
+1.What is component - Angular 2
+2.What is directive - Angular 2
+3.What is template - Angular 2
+4.How to create a component in Angualr js -Angular 2
+5.How many types of directives in angular js - Angular 2
+6.How you pass the data from one controller to other controller - Angular 1.x
+7.How you will pass the data from one component to other component
