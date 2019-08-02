@@ -50,13 +50,12 @@ In normal JavaScript, a developer will not receive any error feedback assigning 
 In strict mode, any assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object, will throw an error.
 ______________________________________________________________________________________________
 JavaScript Object 
-
 In JavaScript we can create javascript object in three ways:-
 
 1.object literal
 2.using new keyword
 3.using constructor 
-
+***************************************************************************************************************************************
 
  
 Angular JS Questions 
