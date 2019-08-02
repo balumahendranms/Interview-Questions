@@ -38,4 +38,6 @@ Angular JS Questions
 8.how to create new component using CLI
 9.What is JIT
 10.What is AOT
+11.Digest cycle in angular JS
+12.Life hooks in angular JS
 
