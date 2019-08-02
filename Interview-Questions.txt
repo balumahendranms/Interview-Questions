@@ -22,6 +22,42 @@ JavaScript Interview Questions
 20.prototype in javascript
 21.callback function in javascript
 22.var,let.const in javascrpt
+Advanced JavaScript Questions
+-----------------------------------------------------------------------------------------
+Hoisting
+--------------------
+1.Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
+2.In JavaScript, a variable can be declared after it has been used
+3.In other words; a variable can be used before it has been declared.
+Declare Your Variables At the Top !
+Hoisting is (to many developers) an unknown or overlooked behavior of JavaScript.
+If a developer doesn't understand hoisting, programs may contain bugs (errors).
+To avoid bugs, always declare all variables at the beginning of every scope.
+Since this is how JavaScript interprets the code, it is always a good rule.
+____________________________________________________________________________________________
+Strict Mode in javascript
+---------------------------
+Why Strict Mode?
+
+Strict mode makes it easier to write "secure" JavaScript.
+
+Strict mode changes previously accepted "bad syntax" into real errors.
+
+As an example, in normal JavaScript, mistyping a variable name creates a new global variable. In strict mode, this will throw an error, making it impossible to accidentally create a global variable.
+
+In normal JavaScript, a developer will not receive any error feedback assigning values to non-writable properties.
+
+In strict mode, any assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object, will throw an error.
+______________________________________________________________________________________________
+JavaScript Object 
+
+In JavaScript we can create javascript object in three ways:-
+
+1.object literal
+2.using new keyword
+3.using constructor 
+
+
  
 Angular JS Questions 
 ----------------------
