@@ -1,0 +1,259 @@
+Job Searching items list
+------------------------
+behavior-driven development (BDD) is an Agile software development (BDD)
+Agile Development
+Scrum Development
+stakeholders
+------------------------------
+
+Use of doctype
+********************
+All browsers need the doctype. Without the DOCTYPE you are forcing the browsers to render in Quirks Mode.
+In Web browser now a days we are follwing three mode
+1.Quirks mode
+2.Standard mode
+3.full standard mode
+Quirks mode:- refers to a technique used by some web browsers for the sake of maintaining backward compatibility with web pages designed for Internet Explorer 5 and earlier, instead of strictly complying with W3C and IETF standards in standards mode.
+---------------------------------
+
+Browsers engine used
+********************************
+Gecko is Mozilla's browser engine
+Webkit is apple device
+----------------------------------
+
+Browser
+**********************************
+Google Chrome
+Internet Explorer
+Firefox
+Internet Edge
+----------------------------------
+
+Code Editors used for Web Development
+*************************************
+Difference betweeen IDE()Integrated development environment and text editor :-
+https://tms-outsource.com/blog/posts/web-development-ide/
+-------------------------------------------
+
+Git commands
+**********************
+git config
+git init
+git clone
+git add
+git commit -m "Branch name"
+git push
+git pull
+git diff
+git status
+git stash
+git reset
+git rm
+git log
+git show
+git branch
+git checkout
+git merge
+git tag
+
+git config
+-----------
+Usage: git config –global user.name “[name]”  
+
+Usage: git config –global user.email “[email address]”  
+
+This command sets the author name and email address respectively to be used with your commits.
+
+git init
+-----------
+This command is used to start a new repository.
+
+git clone
+-----------
+This command is used to obtain a repository from an existing URL
+
+git add
+-----------
+this commands used to add a file
+
+git commit 
+-------------
+this is used to commit a file in the particular branch
+
+git diff
+-------------
+this command is used to find the diff in the file
+
+HTML5
+********************
+1.differernce between html4 and html5
+
+2.localStroage.setItem(key,value);
+  localStroage.getItem(key);
+  localStroage.removeItem(key);
+
+Semantics tags why
+---------------------
+Elements with meaning
+
+A semantic element clearly defines its meaning both to the developer and the browser.
+
+Old days semantic tag - In earlier versions of HTML, there were no globally accepted names for headings, footers, etc. Developers used their own created names for layout elements. That made it very hard for search engines to index web page content.
+
+what is DHTML
+---------------
+Dynamic HTML, or DHTML, is an umbrella term for a collection of technologies used together to create interactive and animated websites[1] by using a combination of a static markup language (such as HTML), a client-side scripting language (such as JavaScript), a presentation definition language (such as CSS), and the Document Object Model (DOM).[2] The application of DHTML was introduced by Microsoft with the release of Internet Explorer 4 in 1997.
+
+HTML5 Geolocation
+------------------------
+HTML5 geolocation is api to find the user location position
+
+HTML5 Web Storage
+-----------------------
+The HTML5's web storage feature lets you store some information locally on the user's computer, similar to cookies but it is more secure and faster. The information stored in the web storage isn't sent to the web server as opposed to the cookies where data sent to the server with every request. Also, where cookies lets you store a small amount of data (nearly 4KB), the web storage allows you to store up to 5MB of data.
+
+There are two types of web storage, which differ in scope and lifetime:
+
+Local storage — The local storage uses the localStorage object to store data for your entire website, permanently. That means the stored local data will be available on the next day, the next week, or the next year unless you remove it.
+
+Session storage — The session storage uses the sessionStorage object to store data on a temporary basis, for a single window (or tab). The data disappears when session ends i.e. when the user closes that window (or tab).
+
+localStorage.setItem(key, value):
+localStorage.getItem(key): 
+localStorage.removeItem(key)
+localStorage.clear()
+
+HTML5
+---------------
+<!DOCTYPE html> - It is an instruction to the web browser about what version of HTML the page is written in. 
+
+<meta charset="UTF-8"> - meta tag in html5
+
+When to Use GET?
+
+The default method when submitting form data is GET.
+
+However, when GET is used, the submitted form data will be visible in the page address field:
+
+/action_page.php?firstname=Mickey&lastname=Mouse
+Notes on GET:
+
+Appends form-data into the URL in name/value pairs
+The length of a URL is limited (about 3000 characters)
+Never use GET to send sensitive data! (will be visible in the URL)
+Useful for form submissions where a user want to bookmark the result
+GET is better for non-secure data, like query strings in Google
+-------------------------------------------------------------
+What is semantic elements
+***************************
+A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: <div> and <span> - Tells nothing about its content. Examples of semantic elements: <form> , <table> , and <article> - Clearly defines its content.
+---------------------------
+use of box-sizing
+box-sizing is a property of padding and border of the element with the height and width.
+
+HTML5 AUDIO
+-----------
+Before using html5 audio we are using thrid party plugin for audio support
+Same for HTML5 Video
+
+HTML5 Web Workers
+-----------------
+When executing scripts in an HTML page, the page becomes unresponsive until the script is finished.
+
+A web worker is a JavaScript that runs in the background, independently of other scripts, without affecting the performance of the page. You can continue to do whatever you want: clicking, selecting things, etc., while the web worker runs in the background.
+
+Important link for interview questions HTML5 and CSS3
+*****************************************************
+https://www.codeproject.com/Articles/702051/important-HTML-Interview-questions-with-answe#Whatarewebworkersandwhydoweneedthem
+
+https://career.guru99.com/top-50-html-interview-questions/
+
+https://www.careerride.com/HTML5-Interview-Questions.aspx
+
+https://www.bestinterviewquestion.com/html5-interview-questions
+
+http://www.webbopedia.com/interview-question/html5-interview-questions/
+
+http://www.webdevelopmenthelp.net/2013/04/html5-interview-questions.html
+
+https://medium.com/@bestinterviewquestion781/frequently-asked-html5-interview-questions-14d963c4a619
+
+https://www.softwaretestinghelp.com/html5-interview-questions/
+
+https://www.onlineinterviewquestions.com/html5-interview-questions/
+
+JavaScript
+-----------
+Data types in javascript
+-------------------
+number
+string
+null
+undefined
+object
+symbol
+boolean
+----------------------
+difference between null and undefined
+null:
+undefined:undefined means a variable has been declared but has not yet been assigned a value
+-----------------------
+difference between == and === in javascript
+== : it will check only the value
+=== : it will check the value and its datatype
+
+first string means which ever at next also it will treat as string
+
+difference between var let and const in javascript
+
+var is function scope
+let is block scope
+const is block scope
+const cannot be redeclare and reuse it in javascript
+----------------------------
+
+callback function 
+
+https://www.youtube.com/watch?v=pTbSfCT42_M
+
+css flexbox
+justify content : space between
+prototype in javascript
+closure in javascript.
+agile development process.
+difference between waterfall method and agile development.
+life hooks in angular.
+How to create mixins in sass.
+Bootstrap 4 Features
+difference between px,em,rem
+
+Angular Questions
+------------------------
+What is root scope
+difference between ng-if and ng-show 
+Different types of forms in angular
+two way data binding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
