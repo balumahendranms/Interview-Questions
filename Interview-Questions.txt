@@ -1,7 +1,11 @@
 JavaScript Interview Questions
 --------------------------------
 1.Difference between setTimeout and setInterval
+  setTimeout Fires only once
+  setInterval Fires again and again
+  
 2.Javascript cookie
+
 3.Difference between == and === in javascript
 4.call apply and bind in javascript
 5.localstorage in html5
