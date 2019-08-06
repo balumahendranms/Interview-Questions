@@ -1,6 +1,12 @@
 CSS Interview Questions
 -------------------------
 What is box model?
+	Box-Model has multiple properties in CSS. Some of them are given below:
+		borders
+		margins
+		padding
+		Content
+
 What is box sizing
 Pseudo class
 Pesudo elements
