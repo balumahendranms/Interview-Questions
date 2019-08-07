@@ -78,5 +78,16 @@ Angular JS Questions
 9.What is JIT
 10.What is AOT
 11.Digest cycle in angular JS
-12.Life hooks in angular JS
+
+12. Lifecycle hooks in angular js
+------------------------------
+ngOnChanges()
+ngOnInit()
+ngDoCheck()
+ngAfterContentInit()
+ngAfterContentChecked()
+ngAfterViewInit()
+ngAfterViewChecked()
+ngOnDestroy()
+---------------------------------
 
