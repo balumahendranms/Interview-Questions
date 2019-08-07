@@ -78,6 +78,8 @@ Angular JS Questions
 9.What is JIT
 10.What is AOT
 11.Digest cycle in angular JS
+-----------------------------
+Angular js has something called two way binding , .i.e whatever changes you make on view are reflected in controller through viewmodel($scope) or vice versa and the way it is implemented internally is using dirty checking or digest . So once you create a variable on $scope and do a watch on it (either explicitly creating a watcher or through using directives like ng-model etc) your are telling angular to watch for changes on it. internally angular keeps a copy of all the variables it is watching . So whenever you make a change on those variable either on view or in js, angular compares it with the old copy to make sure if it has changed or not in digest cycle (or a cycle in which dirty checking is done) .if it has changed it will update it with the new one so that single value is available in both view and controller. But imagine if variable value changes within its watch function every time, it will go on updating it making the watch function go into an infinite loop , to avoid this if the variable value is inconsistent in digest cycles angular will throws error like “variables has exceeded 10 iterations in digest ” to avoid infinite loop.
 
 12. Lifecycle hooks in angular js
 ------------------------------
