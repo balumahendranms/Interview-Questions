@@ -26,6 +26,17 @@ JavaScript Interview Questions
 20.prototype in javascript
 21.callback function in javascript
 22.var,let.const in javascrpt
+23.How will add a dymacillay div using javascript
+24.difference between container and container-fluid -- bootstrap questions
+25.how we will declare a object using javascript
+26.what is regexperssions
+27.How you will a duplicate in a array element
+28.How to iterate the array element
+28.How will you remove third item in an array
+29.New html5 form input elements
+30.how will add a cssclass to a div using javascript 
+31.How you will add border to the div using javascript
+32.
 Advanced JavaScript Questions
 -----------------------------------------------------------------------------------------
 Hoisting
