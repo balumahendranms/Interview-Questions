@@ -2,10 +2,8 @@ JavaScript Interview Questions
 --------------------------------
 1.Difference between setTimeout and setInterval
   setTimeout Fires only once
-  setInterval Fires again and again
-  
+  setInterval Fires again and again  
 2.Javascript cookie
-
 3.Difference between == and === in javascript
 4.call apply and bind in javascript
 5.localstorage in html5
@@ -36,7 +34,10 @@ JavaScript Interview Questions
 29.New html5 form input elements
 30.how will add a cssclass to a div using javascript 
 31.How you will add border to the div using javascript
-32.
+32.constructor in javascript
+33.what is self invoking function
+34.What is arrow function in jS
+
 Advanced JavaScript Questions
 -----------------------------------------------------------------------------------------
 Hoisting
@@ -102,5 +103,8 @@ ngAfterContentChecked()
 ngAfterViewInit()
 ngAfterViewChecked()
 ngOnDestroy()
----------------------------------
+--------------------------------- 
+13.What is scope
+14.what is rootscope
+15.What is factory in angular js
 
