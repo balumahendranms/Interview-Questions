@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function myfunction(){
+                document.getElementById('testimg').innerHTML = 'this is testing text';
+                document.getElementById('testimg').style.fontSize ="25px";
+                document.getElementById('testimg').style.color ="red";
+            }
+            function mytestfunction(){
+                var x = document.getElementById('testhi');
+                if (x.innerHTML === 'hello'){
+                    x.innerHTML = "I changed";
+                }       
+                else
+                {
+                    x.innerHTML = "hello";
+                }
+            }
+            //spread operator
+            function sum(a,b,c){
+                return a + b + c;
+            }
+            var nums = [2, 3, 5];
+            console.log(sum(...nums));
+            //rest operator
+
+
+            function add(x, y) {
+                return x + y;
+            }
+
+            add(1, 2, 3, 4, 5) // returns 3
+
+
+            function add(...args) {
+            
+                let result = 0;
+                for (let arg of args) 
+                result += arg;
+                return result;
+            }
+
+        add(1) // returns 1
+        add(1,2) // returns 3
+        add(1, 2, 3, 4, 5) // returns 15
+        </script>
+    </head>
+    <title>Javascript program</title>
+    <body>
+        <div id="testhi">hello</div>
+        <div id="testimg">Hi i am balumahendran</div>
+        <button type="button" onclick="myfunction()">
+            Click me
+        </button>
+        <button type="button" onclick="mytestfunction()">
+            Click me to change text
+        </button>
+    </body>
+</html>
