@@ -1,0 +1,38 @@
+JavaScript Interview Questions:-
+1. Difference between JavaScript and java
+2. Difference between null and undefined –
+https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript
+3. Difference between == and === in JavaScript?
+4. Difference between var and let and const in JavaScript
+https://dzone.com/articles/javascript-difference-between-var-let-and-const-ke
+http://www.competa.com/blog/es6- var-let-const-what-is-the-difference/
+5. What is Closure with example?
+a. Closure is a inner function that can  have access to outer function variable scope.
+Example Program:
+----------------------------------------------------------------------
+var a = 10;
+function test() {
+  console.log(a); // will output 10
+  console.log(b); // will output 6
+}
+var b = 6;
+test();
+------------------------------------------------------------------------
+6. What is hoisting?
+7. ‘Use Strict’ in JavaScript
+8. What is event delegation?
+9. What is event bubbling?
+10. What is event capturing?
+11. How to empty an array?
+12. Data types in javascript
+13. What is NAN Function
+14.Difference between undeclared and undefined in javascript?
+15.What is use void(0);
+16.Difference between setInterval and setTimeout in javascript?
+17.Difference between this and $this?
+18. What is spread operator in es6?
+19.What is rest operator in es6?
+20. Promise in javascript
+21. callback function in javascript
+22.Observables in javascript
+23.
