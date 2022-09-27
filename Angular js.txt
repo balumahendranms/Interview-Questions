@@ -1,0 +1,116 @@
+Angular js
+-------------------------------
+Angular is front end framework, 
+SIngle page application
+Angular is written in typescript 
+Its scalable web applications
+Its a component based framework
+
+Why Angular?
+----------------------------------
+Its uses the declarative templates
+Dependency Injection
+end to end tooling
+Code splitting
+Angular cli 
+
+How angular works
+---------------------------------
+First it will go to angular.json
+main.ts - 
+APP.MODULE.TS
+APP.COMPONENT.TS
+INDEX.HTML
+APP.COMPONENT.HTML
+
+DIRECTIVES
+---------------------------------------
+directives is used to manipulate the dom
+adding /removing the element from the dom
+
+Using @directives we can create custom directives
+
+Three directives
+
+1.component directives
+appcomponent
+
+2.structural directives
+ng-if
+ng-for 
+ng-switch
+
+3.attribute directives
+ng-class
+ng-switch
+
+LAZY loading
+--------------------------------
+Lazy loading is a technique in Angular that allows you to load JavaScript components asynchronously when a specific route is activated. 
+It improves the speed of the application load time by splitting the application into several bundles. 
+When the user navigates through the app, the bundles are loaded as required.
+
+.loadchildren
+
+wildcard routing
+------------------------------
+if the page is not exist in the application,that time we need to show the page not found to the user.
+We can achive by using path:** and component path 
+
+routing
+routelink
+path :
+componenet name :
+
+Components in Angular 
+----------------------------
+Components are building block of angular application.it contain the below items
+
+@Component({
+  selector: 'app-component-overview',
+  templateUrl: './component-overview.component.html',
+  styleUrls: ['./component-overview.component.css']
+})
+
+selector
+template
+templateUrl
+styleUrls
+
+What is modules in angular
+---------------------------
+module is mechanism of group components, directives,pipes and services
+
+Life Cycle hooks
+-----------------------------------------------------------------------
+ngOnChanges: When an input/output binding value changes.
+ngOnInit: After the first ngOnChanges.
+ngDoCheck: Developer's custom change detection.
+ngAfterContentInit: After component content initialized.
+ngAfterContentChecked: After every check of component content.
+ngAfterViewInit: After a component's views are initialized.
+ngAfterViewChecked: After every check of a component's views.ngOnDestroy: Just before the component/directive is destroyed.
+
+pipes
+----------
+string pipes
+lowercase
+uppercase
+titlecase
+slice:3:5
+json 
+
+number pipes
+
+
+
+
+
+
+
+
+
+
+
+
+
