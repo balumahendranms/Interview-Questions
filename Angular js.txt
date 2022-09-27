@@ -1,10 +1,12 @@
 Angular js
 -------------------------------
-Angular is front end framework, 
-SIngle page application
+Angular is front end framework
+Single Page Application
 Angular is written in typescript 
 Its scalable web applications
 Its a component based framework
+Its accepts end to end tooling
+Its uses the MVVM pattern - Model View - View Model
 
 Why Angular?
 ----------------------------------
@@ -16,11 +18,11 @@ Angular cli
 
 How angular works
 ---------------------------------
-First it will go to angular.json
-main.ts - 
+index.html
+go to angular.json
+main.ts - entry point of the application 
 APP.MODULE.TS
 APP.COMPONENT.TS
-INDEX.HTML
 APP.COMPONENT.HTML
 
 DIRECTIVES
@@ -43,6 +45,10 @@ ng-switch
 3.attribute directives
 ng-class
 ng-switch
+
+Custom Directive 
+
+@Directive 
 
 LAZY loading
 --------------------------------
