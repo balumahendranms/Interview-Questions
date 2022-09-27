@@ -99,9 +99,27 @@ uppercase
 titlecase
 slice:3:5
 json 
+Pipes is filter it get a data as a input and transform as a desired output format.
 
-number pipes
+Pure Pipe
+-------------------
+A pure pipe is only called when Angular detects a change in the value or the parameters passed to a pipe
+For eg:
+@Pipe({
+  name: 'filterPipe', 
+  pure: true     
+})
+export class FilterPipe {}
 
+Impure Pipe
+------------------
+An impure pipe is called for every change detection cycle no matter whether the value or parameter(s) changes.
+For eg:
+@Pipe({
+  name: 'filterPipe', 
+  pure: false
+})
+export class FilterPipe
 
 
 
